@@ -1,0 +1,348 @@
+/*
+Author Name
+Autohr Info Here
+*/
+
+/* ======Index=======
+
+1.Home
+2.About
+3.Our Work
+4.Contact
+5.
+=====================
+*/
+
+/* Global CSS */
+body {
+	font-family: 'Roboto Slab', serif;
+}
+.no-padding {
+	padding: 0px;
+}
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+p {
+	font-size: 15px;
+}
+/*navigation section start*/
+.img-fluid{
+
+}
+.menu {
+	background-color: #edeff1;
+	padding: 25px 0px;
+}
+.nav-link {
+	color: #161616;
+}
+.js-scroll-trigger.active {
+    background: #dd4b2b;
+    color: #fff;
+    border-radius: 14px;
+    padding: 4px 11px!important;
+}
+/*Fusce at section start*/
+.bg{
+    background-color: #80808069;
+}
+.hero {
+	background:url(../img/banner.png);
+	background-size: cover;
+}
+.tittle {
+    padding-top: 300px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.tittle h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+.tittle p {
+    color: #fff;
+}
+.food-menu {
+	text-align: center;
+}
+.food-menu h2{
+	color: #fff;
+	margin: 10px 0px;
+}
+.food-menu p{
+        margin-top: 28px;
+	color: #fff;
+}
+.btn{
+    margin: 55px auto 0;
+    background: #fff;
+    padding: 6px 20px;
+    color: darkred;
+    border-radius: 12px;
+    margin-bottom: 160px;  
+}
+.btn:hover{
+    background-color: darkred;
+    color: #fff;
+    transition: 0.8s ease;
+}
+/* <!--fisce section end-->*/
+
+/*<!--Facilisis section start-->*/
+.h2{
+    color: black;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.contaen{
+	background-color:#EDEFF1;
+    padding: 50px;
+}
+.h2o {
+    margin: 20px 60px;
+    color:black;
+}
+.bto{
+	margin-top: 30px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    color:black;
+}
+.bto:hover{
+    background-color: skyblue;
+    color: black;
+    transition: 0.8s ease;
+}
+.prager {
+    font-size: 15px;
+    width: 289px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+/*<!--Facilisis section end-->*/
+
+/*<!--Antedonec section start-->*/
+.ation{
+  background:url(../img/newsletter.png)
+}
+.bg{
+    background-color: #80808069;
+}
+.borolekha{       
+    color: #fff;
+    text-align: center;
+    margin-top: 84px;
+}
+.chotolekha{
+    color: #fff;
+    width: 583px;
+    text-align: center;
+    margin: 0 auto;
+}
+.form-control{
+    position: relative;
+    border-radius: 14px;
+    background-color: #343a4012;;
+    margin-top: 49px;
+    margin-bottom: 105px;
+    margin-left: 208px;
+    width: 550px;
+}
+input.form-control[type="email"]::placeholder{
+    color:white;
+}
+.btn-one{
+    position: absolute;
+    padding: 6px 40px;
+    background: #fff;
+    border-radius: 14px;
+    border: none;
+    color: red;
+    top:224px;
+    right: 195px;
+}
+.btn-one:hover{
+    background-color: #4AB3C9;
+    color: black;
+    transition: 0.8s ease;
+}
+/*<!--Antedonec section end-->
+
+/*<!--Blanditrhoncus section start-->*/
+.tubr{
+    padding: 70px;
+}
+.seven{
+    margin-bottom: 20px;
+}
+.btn-on{
+    background-color: #DD4B2B;
+    padding: 10px 48px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    margin-top: 20px;
+}
+.btn-on:hover{
+    background-color: #4267B2;
+    color: #Fff;
+    transition: 0.8s ease;
+}
+.noed{
+  border: 1px solid #dddddd;
+    margin-top: 50px;
+}
+.noe{
+    border: 1px solid #dddddd;
+}
+.sevend{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.btn-oen{
+    background-color: #4B4E73;
+    padding: 10px 48px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    margin-top: 20px;
+}
+.btn-oen:hover{
+    background-color: #BFBDC5;
+    color:black;
+    transition: 0.8s ease;
+}
+/*<!--Blanditrhoncus section end-->*/
+
+/*<!--Placerat section start-->*/
+.Placerat{
+    background-color: #D75D0E;
+    padding: 50px;
+}
+nav ul{
+    margin-top: 25px;
+}
+nav ul li{
+    list-style: none;
+    color: #fff;
+    line-height: 28px;
+}
+/*<!--Placerat section end-->*/
+
+/*<!--review section start-->*/
+.review{
+    background: url(../img/newsletter.png);
+}
+.bg{
+    background-color: #80808069;
+}
+.mx-auto h5{
+    margin-top: 85px;
+    width: 830px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 190px;
+}
+/*<!--review section end-->*/
+
+/*<!--media query start-->*/
+@media (min-width: 320px) and (max-width:500px){
+.img-fluid{
+        margin: 10px 20px 0px 40px;
+}
+.navbar-toggler{
+    margin: 20px 40px 8px 40px;
+
+}
+.menu {
+    background-color: #edeff1;
+    padding: 25px 0px;
+}
+.nav-link {
+    color: #161616;
+}
+.js-scroll-trigger.active {
+    background: #dd4b2b;
+    color: #fff;
+    border-radius: 14px;
+    padding: 4px 11px!important;
+}
+.tittle {
+    padding-top: 220px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.tittle h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -73px;
+}
+.btn{
+    margin: 40px auto 0;
+    padding: 5px 15px;
+    margin-bottom: 50px;
+}
+.h2{
+    margin-top: -20px;
+    margin-bottom: 28px;
+}
+.borolekha{       
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+.chotolekha{
+    width: 447px;
+    margin: 0 auto;
+    display: block;
+}
+.btn-one{
+    top: 202px;
+    left: 329px;
+}
+.form-control{
+    margin-bottom: 50px;
+    width: 430px;
+    margin-left: 25px;
+}
+.tubr{
+    padding: 50px;
+}
+.seven{
+    margin-bottom: 12px;
+}
+.btn-on{
+    margin-bottom: 20px;
+}
+.noe{
+    height: 300px;
+    border: 1px solid #dddddd;
+}
+.noed{
+    height: 300px;
+    margin-top: 50px;
+}
+nav ul{
+    margin-top: 25px;
+}
+nav ul li{
+    list-style: none;
+    color: #fff;
+    line-height: 28px;
+}
+.mx-auto h5{
+    margin-top: 94px;
+    width: 457px;
+}
+}
